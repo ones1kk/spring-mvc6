@@ -13,13 +13,13 @@ public class ItemServiceApplication {
         SpringApplication.run(ItemServiceApplication.class, args);
     }
 
-   /* @Bean
+    @Bean
     public MessageSource messageSource() {
         ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
         messageSource.setBasenames("messages", "errors");
         messageSource.setDefaultEncoding("UTF-8");
 
         return messageSource;
-    }*/
+    }
 
 }
